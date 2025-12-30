@@ -1,0 +1,60 @@
+* {
+    font-family: system-ui, -apple-system, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 220px;
+}
+.container {
+    display: flex;
+    background-color: pink;
+    flex-wrap: wrap;
+    padding: 22px;
+    margin: 12px 0;
+    width: 650px;
+    height: 650px;
+    border-radius: 8px;
+}
+.box {
+    border: 0.5px solid rgb(204, 204, 204);
+}
+button {
+    color: white;
+    font-size: 18px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    border: none;
+    background-color: hsl(9, 100%, 64%);
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: hsl(9, 100%, 54%);
+}
+button:active {
+    background-color: hsl(9, 100%, 34%);
+}
+.header-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.color-picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
